@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale"><title>My Favorite Animated Movie</title>
+	<style type="text/css">
+		* {
+			padding:0;
+			margin: 0;
+		}
+		
+		h1 {
+			color:#747A8E;
+
+		}
+
+		body {
+			background-color:#EDE8DC;
+			color:#A8BDCC;
+		}
+
+		h2 {
+			color: #747A8E;
+		}
+
+		h3 {
+			background-color: #D5D3EE;
+			color: #747A8E;
+			border: 20px solid #747A8E;
+			padding: 30px;
+			text-align:center;
+		}
+
+		h4 {
+			color: #747A8E;
+		}
+
+		p {
+			color:#A8BDCC;
+		}
+
+		.characters {
+			display: flex;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+
+		.card {
+			margin: 5px;
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  			transition: 0.3s;
+  			width: 40%;
+  			text-align: center;
+  			padding: 10px;
+		}
+
+		.card:hover {
+ 			 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		}
+
+
+
+	</style>
+
+</head>
+<body>
+	<!-- HEADER -->
+	<div class="header">
+	 	<center><h1>Spirited Away</h1></center>
+	</div>
+	<!-- MOVIE INFO -->
+	<div class= "info">
+		<center><img src="https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_QL75_UX180_CR0,0,180,266_.jpg" width="330" height="500"></center>
+		<center><p>Spirited Away tells the story of Chihiro "Sen" Ogino, a ten-year-old girl who, while moving to a new neighborhood, inadvertently enters the world of kami (spirits of Japanese Shinto folklore). After her parents are turned into pigs by the witch Yubaba, Chihiro takes a job working in Yubaba's bathhouse to find a way to free herself and her parents and return to the human world.</p></center>
+	</div>
+	
+	<!-- CHARACTERS -->
+	<h2> Some of the Main Characters</h2>
+		<div class= "characters">
+			<div class= "card">
+				<img src="https://i.pinimg.com/564x/62/a1/24/62a124e8c1e946d49df0ebc39af5c951.jpg" alt="cast1: Chihiro" width= "250" height= "300">
+				<div class= "card-text">
+					<h4>Chihiro Ogino</h4>
+					<p>A young girl who accidentally enters the world of kami.
+					Voice Actress: Rumi Hiiragi</p>
+				</div>
+			</div>	
+
+			<div class= "card">
+				<img src="https://i.pinimg.com/564x/65/fc/9e/65fc9ebc65623aea48941d2e49a5874d.jpg" alt="cast2: Haku/Nigihayami Kohaku Nushi" width= "250" height= "300">
+				<div class= "card-text">
+					<h4>Haku/Nigihayami Kohaku Nushi</h4>
+					<p>A dragon, who disguises as a human boy. He had become Yubaba's apprentice to steal her magic, and he also stole that of her twin sister Zeniba.
+					Voice Actor: Miyu Irino</p>
+				</div>
+			</div>	
+		
+			<div class= "card">
+				<img src="https://i.pinimg.com/564x/c0/4d/60/c04d6073a405eb4fe59dde27ab7145e3.jpg" alt="cast3: Kaonashi/No Face" width= "250" height= "300">
+				<div class= "card-text">
+					<h4>Kaonashi/No Face</h4>
+					<p>A wandering spirit who becomes obsessed with Chihiro after she is nice to him.
+					Voice Actor: Akio Nakamura</p>
+				</div>
+			</div>	
+		
+			<div class= "card">
+				<img src="https://static.tvtropes.org/pmwiki/pub/images/d6da43b623fa06104b2676514652fdd7.png" alt="cast4: Lin" width= "250" height= "300">
+				<div class= "card-text">
+					<h4>Lin</h4>
+					<p>A servant in Yubaba's bathhouse, and a transformed spirit of a Byakko, a white fox that brings people happiness.
+					Voice Actress: Yumi Tamai</p>
+				</div>
+			</div>	
+		</div>
+
+</body>
+
+	<!-- MORE STUDIO GHIBLI MOVIES -->
+	<div>
+		<h2>Other Studio Ghibli Movies you should try!</h2>
+		
+		<label for="more movies">Choose a Movie: </label>
+
+		<select name="more movies" id="more movies">
+		  <option value="The Wind Rises">The Wind Rises</option>
+		  <option value="My Neighbor Totoro">My Neighbor Totoro</option>
+		  <option value="Howl's Moving Castle">Howl's Moving Castle</option>
+		  <option value="Kiki's Delivery Service">Kiki's Delivery Service</option>
+		  <option value="Castle in the Sky">Castle in the Sky</option>
+		</select>
+	
+	</div>
+
+
+	<div id= "contact">
+		<h2>Share Your Thoughts about "Spirited Away"!</h2>
+		<form>
+			<label for="name">Name: </label><br>
+			<input type="text" id="name"><br>
+			<label for="email">Email: </label><br>
+			<input type="text" id="email"><br>
+			<label for="suggestions"> Thoughts on the Movie: </label><br>
+			<textarea id="message" rows="4" cols="50"> Write down your thoughts! </textarea><br>
+			<input type="submit">
+		</form>	
+	</div>
+	
+	<br>
+
+	<!-- FOOTER -->
+	<div class="footer">
+	 	<center><h3>Submitted by: Jaiyanah Rae P. Baring | Grade 9- Ruby</h3></center>
+
+	</div>
